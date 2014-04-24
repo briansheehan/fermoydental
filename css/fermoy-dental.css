@@ -1,0 +1,65 @@
+.jumbotron {
+ background-color: #FFF; 
+}
+
+#inner-map-div {
+	text-align: left;
+}
+
+#opening-hours-div {
+/*
+	float:right;
+*/
+}
+#opening-hours-div h2 {
+  text-align: center;
+}
+
+#phone-fax-email-div {
+  text-align: center;
+  margin-top: 5%;
+}
+
+table.opening-hours {
+  margin: auto;
+}
+
+table.opening-hours td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: none;
+	border-color: #666666;
+	background-color: #ffffff;
+	height: 1px;
+}
+
+td.right-align {
+	text-align: right;
+}
+
+table.opening-hours td div {
+	height:100%;
+	position:relative;
+}
+
+td div.mon {
+	background-color:rgb(118, 252, 118);
+	width:12em;	
+}
+
+td div.tue {
+	background-color:rgb(118, 252, 118);
+	width:9em;	
+}
+
+td div.sat {
+	background-color:rgb(118, 252, 118);
+	width:7em;	
+}
+
+td div.sun {
+	background-color:rgb(255, 182, 182);
+	width:9em;	
+}
+
+
