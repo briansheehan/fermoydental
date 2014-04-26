@@ -2,17 +2,37 @@
  background-color: #FFF; 
 }
 
+li.photo {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 200px; 
+  -moz-border-radius: 200px;
+  border-radius: 200px; 
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  margin: 5px auto;
+  overflow: hidden;
+}
+
+.round-image {
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+
 #inner-map-div {
 	text-align: left;
+	margin-left: 15%;
 }
 
 #opening-hours-div {
-/*
 	float:right;
-*/
+	margin-right: 20%;
 }
 #opening-hours-div h2 {
-  text-align: center;
+  text-align: right;
 }
 
 #phone-fax-email-div {
