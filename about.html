@@ -1,7 +1,10 @@
 ---
-layout: about
+layout: default
 title: About
 ---
+{% capture the_practice %}
+#The Practice
+
 We are four independent General Dental Surgeons operating together 
 in a shared premises in Fermoy Town Centre.
 
@@ -19,6 +22,20 @@ David) joined in 2007.
 
 The practice has established a reputation both locally and 
 nationally in the area of Functional Jaw Orthopedics, with David an 
-Andrew specialising in this treatment for many years.   
+Andrew specialising in this treatment for many years.
+{% endcapture %}
 
+{% capture the_team %}
+#Our Team
+Our hygienist works for all four dentists providing routine hygiene 
+treatment and oral hygiene instruction.
 
+Our four dental assistant staff are very competent, well qualified 
+and are comfortable discussing most aspects of dentistry with our 
+patients.
+
+Our receptionist is very able and operates scheduling etc. to suit 
+our patients' needs, including immediate emergency appointments.
+{% endcapture %}
+
+{% include about.html %}
