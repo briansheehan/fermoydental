@@ -1,2 +1,33 @@
-<div>{{ the_practice }}</div>
-<div>{{ the_team }}</div>
+<div class="container">
+  <div class="row">
+    <div id="about-practice-pics" class="col-sm-6">
+	<div class="container">
+	  <div class="row">
+        <img id="charlie-img" class="round-image" src="./images/charlie.jpg">
+      </div>
+	  <div class="row">
+        <img id="dave-img" class="round-image" src="./images/dave_crop.jpg">
+      </div>
+	  <div class="row">
+        <img id="andrew-img" class="round-image" src="./images/andrew_crop.jpg">
+      </div>
+	  <div class="row">
+        <img id="john-img" class="round-image" src="./images/john_crop.jpg">
+      </div>
+	  <div class="row">
+        <img id="cian-img" class="round-image" src="./images/cian_crop.jpg">
+      </div>
+    </div>
+    </div>
+    
+    <div id="about-practice-text" class="col-sm-6">
+      {{ the_practice }}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div id="about-team-text" class="col-sm-6">{{ the_team }}</div>
+    <div id="about-team-pics" class="col-sm-6"><img id="team-img" src="./images/team.jpg"></div>
+  </div>
+</div>

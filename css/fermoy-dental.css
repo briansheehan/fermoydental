@@ -1,3 +1,19 @@
+#frontpage-carousel {
+  width: 1000px;
+}
+
+.carousel-caption {
+  text-align: left;
+  background-color: black;
+  opacity: .7;
+  padding: 2%;
+  width: 100%;
+}
+
+.carousel-inner>.item>img {
+  width: 100%;
+}
+
 .jumbotron {
  background-color: #FFF; 
 }
@@ -30,8 +46,12 @@
   top: -50px;
 }
 
-#about-content {
-	text-align: center
+#team-img {
+  width: 100%;
+}
+
+#about-practice-text {
+	text-align: left
 }
 
 #inner-map-div {

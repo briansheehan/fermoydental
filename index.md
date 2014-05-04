@@ -3,10 +3,41 @@ layout: default
 title: Fermoy Dental Centre
 ---
 
-# Dentistry is a powerful tool, 
 
-in the right hands. At Fermoy Dental Centre we can cure sleep apnea, 
-BLAH BLAH and BLAH, to name a few of the complaints we regularly 
-treat.	
 
-We don't just do fillings!
+<div id="frontpage-carousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#frontpage-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#frontpage-carousel" data-slide-to="1"></li>
+    <li data-target="#frontpage-carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="./images/1000x500-1.jpg" alt="image">
+      <div class="carousel-caption">
+        <h1>Dentistry is a powerful tool,</h1> in the right hands. At
+        Fermoy Dental Centre we regularly treat complaints as diverse as
+        sleep apnoea, BLAH BLAH and BLAH, to name a few of the 
+        complaints we regularly treat.	
+        <p>We don't just do fillings!      
+      </div>
+    </div>
+    <div class="item">
+      <img src="./images/1000x500-2.jpg" alt="image">
+    </div>
+    <div class="item">
+      <img src="./images/1000x500-3.jpg" alt="image">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#frontpage-carousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#frontpage-carousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
