@@ -1,8 +1,8 @@
-#frontpage-carousel {
-  width: 1000px;
-}
-
 .carousel-caption {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
   text-align: left;
   background-color: black;
   opacity: .7;
@@ -14,8 +14,24 @@
   width: 100%;
 }
 
-.jumbotron {
- background-color: #FFF; 
+#frontpage-carousel .carousel-indicators {
+  display: none;
+}
+#frontpage-carousel .carousel-control {
+  display: none;
+}
+
+table.price-list {
+  border-collapse: collapse;
+}
+
+.price-list td, th {
+  border: 1px solid #999;
+  padding: 0.5em;
+}
+
+.price-list tr {
+  border: 1px dashed #555;
 }
 
 .round-image {
