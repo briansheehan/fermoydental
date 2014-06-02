@@ -17,6 +17,10 @@
 #frontpage-carousel .carousel-indicators {
   display: none;
 }
+.jumbotron {
+background-color: #FFF;
+}
+
 #frontpage-carousel .carousel-control {
   display: none;
 }
@@ -30,9 +34,13 @@ table.price-list {
   padding: 0.5em;
 }
 
-.price-list tr {
-  border: 1px dashed #555;
+
+td:first-child {
+  font-weight:bold;
 }
+
+.price-list tr:nth-child(even) {background: #D3D4D6}
+.price-list tr:nth-child(odd) {background: #FFF}
 
 .round-image {
     border-radius: 100%;
@@ -130,4 +138,12 @@ td div.sun {
 	width:9em;	
 }
 
+.article-body {
+  -webkit-column-count:2; /* Chrome, Safari, Opera */
+  -moz-column-count:2; /* Firefox */
+  column-count:2;
+}
 
+p.article-intro {
+  font-weight: bold;
+}
